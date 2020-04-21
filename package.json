@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-prashantsudeep",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psudeep/next-js-prashantsudeep.git"
+  },
+  "author": "prashantsudeep",
+  "license": ""
+}
