@@ -14,6 +14,7 @@ This README would normally document whatever steps are necessary to get your app
 * Dependencies: List of packages needed is alread available in `package.json`
 * How to run tests - Currently no tests available
 * Deployment instructions: None
+* Start project in DEV Mode: `npm run dev`
 
 ### Contribution guidelines ###
 
