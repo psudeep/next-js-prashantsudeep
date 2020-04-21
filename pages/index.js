@@ -3,6 +3,7 @@ import { useAmp } from 'next/amp';
 
 import Page from '../components/page';
 import Footer from '../components/footer';
+import Newsletter from '../components/home/newsletter';
 
 import { ORG_NAME } from '../lib/constants';
 
@@ -27,8 +28,8 @@ export default () => {
       <Demo />
       <Features />
       <Customers />
-      <Learn />
-      <Newsletter />*/}
+      <Learn />*/}
+      <Newsletter />
       <Footer />
     </Page>
   );

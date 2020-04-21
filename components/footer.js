@@ -134,7 +134,7 @@ export default withPure(() => (
         </div>
         <div className="copyright f6">
           <a
-            href={`${PLATFORM_URL}?utm_source=next-site&utm_medium=footer&utm_campaign=next-website`}
+            href={`${PLATFORM_URL}?utm_source=hellomeets&utm_medium=footer&utm_campaign=hellomeets-website`}
             rel="noopener noreferrer"
             target="_blank"
             aria-label={ORG_NAME}

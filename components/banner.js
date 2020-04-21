@@ -11,6 +11,7 @@ const Banner = () => {
           rel="noopener noreferrer"
         >
           {/*<Logo />*/}
+          <img itemProp="image" src="https://hellomeets.com/wp-content/uploads/2018/03/logo.png" alt="Widget Image" width="138" height="45" />
         </a>
 
         <a
