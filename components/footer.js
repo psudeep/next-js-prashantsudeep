@@ -139,7 +139,7 @@ export default withPure(() => (
             target="_blank"
             aria-label={ORG_NAME}
           >
-            <img itemprop="image" src="https://hellomeets.com/wp-content/uploads/2018/03/logo.png" alt="Widget Image" width="138" height="45" />
+            <img itemProp="image" src="https://hellomeets.com/wp-content/uploads/2018/03/logo.png" alt="Widget Image" width="138" height="45" />
           </a>
           <div>
             Copyright © {`${new Date().getFullYear()}`} {ORG_NAME}, Inc. All rights reserved.
