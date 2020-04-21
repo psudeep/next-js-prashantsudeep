@@ -11,30 +11,13 @@ export default function About() {
           title="Why Next.js"
           description="The world’s leading companies use and love Next.js"
         />
+        <SectionHeader
+          id="team"
+          title="The Team"
+        />
         <div className="row">
           <div className="column">
-            <h3 className="f3 fw6">Pre-Rendering</h3>
-            <p>
-              Statically generated and server-rendered React applications have never been easier.
-            </p>
-          </div>
-          <div className="column">
-            <h3 className="f3 fw6">Static Exporting</h3>
-            <p>
-              No need to learn a new framework. Exporting a static site with Next.js is as easy as a
-              single command.
-            </p>
-          </div>
-          <div className="column">
-            <h3 className="f3 fw6">CSS-in-JS</h3>
-            <p>
-              Next.js comes with <code>styled-jsx</code> included, but it also works with every
-              CSS-in-JS solution you know and love.
-            </p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="column">
+            <img src="https://www.hellomeets.com/wp-content/uploads/2018/03/sahiba.jpg" alt="Sahiba Sethi" width="200" height="200" />
             <h3 className="f3 fw6">Zero Configuration</h3>
             <p>
               Automatic code splitting, filesystem based routing, hot code reloading and universal
@@ -43,6 +26,7 @@ export default function About() {
             <Button href="/learn/basics/create-nextjs-app">Learn Next.js</Button>
           </div>
           <div className="column">
+            <img src="https://www.hellomeets.com/wp-content/uploads/2018/03/sahiba.jpg" alt="Sahiba Sethi" width="200" height="200" />
             <h3 className="f3 fw6">Fully Extensible</h3>
             <p>
               Complete control over Babel and Webpack. Customizable server, routing and
@@ -53,6 +37,7 @@ export default function About() {
             </Button>
           </div>
           <div className="column">
+            <img src="https://www.hellomeets.com/wp-content/uploads/2018/03/sahiba.jpg" alt="Sahiba Sethi" width="200" height="200" />
             <h3 className="f3 fw6">Ready for Production</h3>
             <p>
               Optimized for a smaller build size, faster dev compilation and dozens of other
