@@ -3,7 +3,7 @@ import { useAmp } from 'next/amp';
 
 import Page from '../components/page';
 import Footer from '../components/footer';
-import Features from '../components/home/about';
+import About from '../components/home/about';
 
 import { ORG_NAME } from '../lib/constants';
 
@@ -14,7 +14,7 @@ export default () => {
   return (
     <Page title={`Next.js by ${ORG_NAME} - The React Framework`}>
       <SkipNavContent />
-      <Features />
+      <About />
       <Footer />
     </Page>
   );

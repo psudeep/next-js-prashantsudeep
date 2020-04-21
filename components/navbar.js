@@ -51,7 +51,7 @@ function Navbar() {
             </a>
           </Link>
 
-          <Link href="/#features">
+          {/*<Link href="/#features">
             <a
               className={cn('mute', {
                 selected: route.startsWith('/features')
@@ -60,16 +60,16 @@ function Navbar() {
             >
               Features
             </a>
-          </Link>
+          </Link>*/}
 
-          <Link href="/learn/basics/create-nextjs-app">
+          <Link href="/about-us">
             <a
               className={cn('mute', {
-                selected: route.startsWith('/learn')
+                selected: route.startsWith('/about-us')
               })}
-              title="Learn"
+              title="About Us"
             >
-              Learn
+              About Us
             </a>
           </Link>
 

@@ -2,7 +2,7 @@ import Container from '../container';
 import Button from '../button';
 import SectionHeader from '../section-header';
 
-export default function Features() {
+export default function About() {
   return (
     <Container wide role="region" aria-labelledby="features">
       <Container center padding>
